@@ -16,6 +16,15 @@
 		187249D524D1F477005A64B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187249D324D1F477005A64B3 /* LaunchScreen.storyboard */; };
 		187249E024D1F478005A64B3 /* Final_Project_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249DF24D1F478005A64B3 /* Final_Project_Tests.swift */; };
 		187249EB24D1F478005A64B3 /* Final_Project_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249EA24D1F478005A64B3 /* Final_Project_UITests.swift */; };
+		187249F924D1F5A8005A64B3 /* options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249F824D1F5A8005A64B3 /* options.swift */; };
+		187249FB24D1F5E4005A64B3 /* weeklyUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249FA24D1F5E4005A64B3 /* weeklyUpdates.swift */; };
+		187249FD24D1F60B005A64B3 /* resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249FC24D1F60B005A64B3 /* resources.swift */; };
+		187249FF24D1F633005A64B3 /* mentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249FE24D1F633005A64B3 /* mentalHealth.swift */; };
+		18724A0124D1F6A6005A64B3 /* BLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724A0024D1F6A6005A64B3 /* BLM.swift */; };
+		18724A0324D1F6B9005A64B3 /* LGBTQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724A0224D1F6B9005A64B3 /* LGBTQ.swift */; };
+		18724A0524D1F77B005A64B3 /* disability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724A0424D1F77B005A64B3 /* disability.swift */; };
+		18724A0724D1F792005A64B3 /* womensRights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724A0624D1F792005A64B3 /* womensRights.swift */; };
+		18724A0924D1F7B6005A64B3 /* cilmateChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724A0824D1F7B6005A64B3 /* cilmateChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		187249E624D1F478005A64B3 /* Final Project!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187249EA24D1F478005A64B3 /* Final_Project_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_UITests.swift; sourceTree = "<group>"; };
 		187249EC24D1F478005A64B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187249F824D1F5A8005A64B3 /* options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = options.swift; sourceTree = "<group>"; };
+		187249FA24D1F5E4005A64B3 /* weeklyUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyUpdates.swift; sourceTree = "<group>"; };
+		187249FC24D1F60B005A64B3 /* resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resources.swift; sourceTree = "<group>"; };
+		187249FE24D1F633005A64B3 /* mentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealth.swift; sourceTree = "<group>"; };
+		18724A0024D1F6A6005A64B3 /* BLM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLM.swift; sourceTree = "<group>"; };
+		18724A0224D1F6B9005A64B3 /* LGBTQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQ.swift; sourceTree = "<group>"; };
+		18724A0424D1F77B005A64B3 /* disability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disability.swift; sourceTree = "<group>"; };
+		18724A0624D1F792005A64B3 /* womensRights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womensRights.swift; sourceTree = "<group>"; };
+		18724A0824D1F7B6005A64B3 /* cilmateChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cilmateChange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,15 @@
 				187249D324D1F477005A64B3 /* LaunchScreen.storyboard */,
 				187249D624D1F477005A64B3 /* Info.plist */,
 				187249CE24D1F476005A64B3 /* Final_Project_.xcdatamodeld */,
+				187249F824D1F5A8005A64B3 /* options.swift */,
+				187249FA24D1F5E4005A64B3 /* weeklyUpdates.swift */,
+				187249FC24D1F60B005A64B3 /* resources.swift */,
+				187249FE24D1F633005A64B3 /* mentalHealth.swift */,
+				18724A0024D1F6A6005A64B3 /* BLM.swift */,
+				18724A0224D1F6B9005A64B3 /* LGBTQ.swift */,
+				18724A0424D1F77B005A64B3 /* disability.swift */,
+				18724A0624D1F792005A64B3 /* womensRights.swift */,
+				18724A0824D1F7B6005A64B3 /* cilmateChange.swift */,
 			);
 			path = "Final Project!";
 			sourceTree = "<group>";
@@ -262,10 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18724A0524D1F77B005A64B3 /* disability.swift in Sources */,
+				187249F924D1F5A8005A64B3 /* options.swift in Sources */,
 				187249CA24D1F476005A64B3 /* ViewController.swift in Sources */,
 				187249C624D1F476005A64B3 /* AppDelegate.swift in Sources */,
+				187249FD24D1F60B005A64B3 /* resources.swift in Sources */,
+				187249FF24D1F633005A64B3 /* mentalHealth.swift in Sources */,
 				187249D024D1F476005A64B3 /* Final_Project_.xcdatamodeld in Sources */,
 				187249C824D1F476005A64B3 /* SceneDelegate.swift in Sources */,
+				18724A0124D1F6A6005A64B3 /* BLM.swift in Sources */,
+				18724A0324D1F6B9005A64B3 /* LGBTQ.swift in Sources */,
+				187249FB24D1F5E4005A64B3 /* weeklyUpdates.swift in Sources */,
+				18724A0724D1F792005A64B3 /* womensRights.swift in Sources */,
+				18724A0924D1F7B6005A64B3 /* cilmateChange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
