@@ -33,7 +33,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="qht-FO-6k6"/>
                     </view>
                     <connections>
                         <outlet property="welcome" destination="a8Z-xB-208" id="Leb-0O-57z"/>
@@ -51,7 +51,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="qbt-lk-Jjq"/>
+                        <viewLayoutGuide key="safeArea" id="Gpf-6K-Wvf"/>
                     </view>
                     <navigationItem key="navigationItem" id="8dj-6z-9hQ"/>
                 </viewController>
@@ -67,7 +67,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="aCb-cT-eGT"/>
+                        <viewLayoutGuide key="safeArea" id="eaM-Zz-u3o"/>
                     </view>
                     <navigationItem key="navigationItem" id="Y2u-cV-jOD"/>
                 </viewController>
@@ -83,7 +83,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="FNR-tw-JrA"/>
+                        <viewLayoutGuide key="safeArea" id="z73-tg-7oq"/>
                     </view>
                     <navigationItem key="navigationItem" id="gP6-7p-4Sv"/>
                 </viewController>
@@ -99,7 +99,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="pg5-Z1-36i"/>
+                        <viewLayoutGuide key="safeArea" id="0fS-we-K5M"/>
                     </view>
                     <navigationItem key="navigationItem" id="RZE-T0-7HG"/>
                 </viewController>
@@ -162,7 +162,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="fDK-Fg-PFk"/>
+                        <viewLayoutGuide key="safeArea" id="u1G-8J-T35"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q8B-Qp-mIB"/>
                 </viewController>
@@ -177,14 +177,98 @@
                     <view key="view" contentMode="scaleToFill" id="4hx-9N-5tF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRE-15-tsj">
+                                <rect key="frame" x="146" y="32" width="122" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfq-Yi-afb">
+                                <rect key="frame" x="37" y="127" width="76" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="petitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlJ-IV-yW7">
+                                <rect key="frame" x="37" y="308" width="67" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="media" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am0-9n-coH">
+                                <rect key="frame" x="37" y="494" width="47" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzo-6a-Pr0">
+                                <rect key="frame" x="37" y="156" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NASA-climate change"/>
+                                <connections>
+                                    <action selector="NASA:" destination="IrS-QK-pMx" eventType="touchUpInside" id="l6w-1j-zfu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVP-QM-YzJ">
+                                <rect key="frame" x="20" y="186" width="212" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="united nations- climate change"/>
+                                <connections>
+                                    <action selector="unClimatechange:" destination="IrS-QK-pMx" eventType="touchUpInside" id="lAp-PE-ZS1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ti-Kz-CnO">
+                                <rect key="frame" x="3" y="211" width="411" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="world health organization- climate change effects on health "/>
+                                <connections>
+                                    <action selector="whoClimatechange:" destination="IrS-QK-pMx" eventType="touchUpInside" id="rym-dM-kCR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkO-VB-fXh">
+                                <rect key="frame" x="20" y="350" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change.org"/>
+                                <connections>
+                                    <action selector="changeClimate:" destination="IrS-QK-pMx" eventType="touchUpInside" id="T8S-Sc-Nl5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fk0-ZV-gTM">
+                                <rect key="frame" x="20" y="523" width="210" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="climate change documentaires"/>
+                                <connections>
+                                    <action selector="climatechangeDocs:" destination="IrS-QK-pMx" eventType="touchUpInside" id="TlM-sO-rVP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04t-s7-Trs">
+                                <rect key="frame" x="20" y="550" width="154" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="climate change books "/>
+                                <connections>
+                                    <action selector="climateChangeBooks:" destination="IrS-QK-pMx" eventType="touchUpInside" id="9bn-q7-i9W"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="qN3-AL-7mx"/>
+                        <viewLayoutGuide key="safeArea" id="gO4-NH-Te5"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZBy-xq-G3V"/>
+                    <connections>
+                        <outlet property="climateChange" destination="FRE-15-tsj" id="JGO-44-J1N"/>
+                        <outlet property="climatechangeResource" destination="Nfq-Yi-afb" id="lbd-0Z-Iy9"/>
+                        <outlet property="climatechangemedia" destination="Am0-9n-coH" id="uOE-yu-cYV"/>
+                        <outlet property="climatechangepetitions" destination="JlJ-IV-yW7" id="yEV-JK-ZRA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KMT-Kt-cBq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3735" y="778"/>
+            <point key="canvasLocation" x="3734.7826086956525" y="777.45535714285711"/>
         </scene>
         <!--Womens Rights-->
         <scene sceneID="vvU-Q6-Cvj">
@@ -193,14 +277,120 @@
                     <view key="view" contentMode="scaleToFill" id="io0-3m-Odf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women's Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fl-NI-3cg">
+                                <rect key="frame" x="127" y="37" width="161" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyX-lI-Lvo">
+                                <rect key="frame" x="20" y="118" width="111" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfB-eC-Tqg">
+                                <rect key="frame" x="32" y="165" width="267" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="American Civil Liberties Union- Womens Rights">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="mD1-1e-dms"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b5-Tb-av6">
+                                <rect key="frame" x="20" y="191" width="222" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="United Nations- Gender Equality"/>
+                                <connections>
+                                    <action selector="unitedNations:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="3mk-LS-Hl6"/>
+                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="lK3-ER-qG3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ke5-pp-BBY">
+                                <rect key="frame" x="6" y="221" width="319" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CDC- Sexual Violence prevention and support "/>
+                                <connections>
+                                    <action selector="sexualViolence:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="0Tq-tP-tXv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knr-zr-Y7q">
+                                <rect key="frame" x="20" y="251" width="283" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Global History of Women's Rights- Video "/>
+                                <connections>
+                                    <action selector="globalHistory:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="mPr-Hf-fOd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGa-XU-cGW">
+                                <rect key="frame" x="20" y="357" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4E-NC-Bld">
+                                <rect key="frame" x="32" y="386" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change.org"/>
+                                <connections>
+                                    <action selector="changeorg:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="dvy-h5-dgM"/>
+                                    <action selector="globalHistory:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="inV-4D-O10"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5e-UT-tOv">
+                                <rect key="frame" x="32" y="492" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aej-KL-b26">
+                                <rect key="frame" x="20" y="521" width="164" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Women Documentaries "/>
+                                <connections>
+                                    <action selector="womenDocumentaries:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="7Vk-lA-g6o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnI-NP-1fs">
+                                <rect key="frame" x="20" y="549" width="125" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Women TV Shows"/>
+                                <connections>
+                                    <action selector="womenTV:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="rSX-Ce-nQ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5z-0R-cqB">
+                                <rect key="frame" x="20" y="576" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Women Books"/>
+                                <connections>
+                                    <action selector="womenBooks:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="ZF4-bt-Vec"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="FKA-Do-CtJ"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="C4O-kx-BRS"/>
                     </view>
                     <navigationItem key="navigationItem" id="fs6-UN-e4B"/>
+                    <connections>
+                        <outlet property="womenMedia" destination="o5e-UT-tOv" id="lmv-XD-nge"/>
+                        <outlet property="womenPetition" destination="bGa-XU-cGW" id="Urz-WY-VEn"/>
+                        <outlet property="womenResource" destination="MyX-lI-Lvo" id="AM1-9k-uEZ"/>
+                        <outlet property="womenRight" destination="6fl-NI-3cg" id="MRh-TG-SRo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iho-AR-YkL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4414" y="-19"/>
+            <point key="canvasLocation" x="4413.04347826087" y="-19.419642857142858"/>
         </scene>
         <!--Options-->
         <scene sceneID="1T9-pl-fAs">
@@ -239,7 +429,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="fcr-6p-gRS"/>
+                        <viewLayoutGuide key="safeArea" id="srO-f5-iKX"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wzu-da-thm"/>
                 </viewController>
@@ -254,14 +444,26 @@
                     <view key="view" contentMode="scaleToFill" id="kaI-U3-V7M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental Health :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZg-OR-HOD">
+                                <rect key="frame" x="146" y="39" width="122" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="4Ek-fv-47R"/>
+                        <viewLayoutGuide key="safeArea" id="dQR-pB-d3E"/>
                     </view>
                     <navigationItem key="navigationItem" id="TfZ-Xi-3hn"/>
+                    <connections>
+                        <outlet property="mentalhealthTitle" destination="NZg-OR-HOD" id="Wi3-4e-5eQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TlF-jF-x7r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="714" y="863"/>
+            <point key="canvasLocation" x="713.04347826086962" y="862.5"/>
         </scene>
     </scenes>
 </document>

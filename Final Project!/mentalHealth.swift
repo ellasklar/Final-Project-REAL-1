@@ -10,6 +10,12 @@ import UIKit
 
 class mentalHealth: UIViewController {
 
+    @IBOutlet weak var mentalhealthTitle: UILabel!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
