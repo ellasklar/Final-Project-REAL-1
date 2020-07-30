@@ -50,10 +50,19 @@ class womensRights: UIViewController {
     
     
     @IBAction func changeorg(_ sender: UIButton) {
-        UIApplication.shared.open (URL(string:"https://www.change.org/t/women-s-rights-en-us")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open (URL(string:"https://www.change.org/p/my-silence-your-silence-our-collective-inaction-helps-perpetuate-this-culture-of-hate-online-it-s-time-we-put-an-end-to-targeted-abuse-women-face-online-every-day-stand-for-indiaagainstabuse?source_location=topic_page")! as URL, options: [:], completionHandler: nil)
         
     }
     
+    
+    @IBAction func yroldgirl(_ sender: UIButton) {
+        UIApplication.shared.open (URL(string:"https://www.change.org/p/colombia-justice-for-12yr-old-girl-raped-by-9-colombian-soldiers?source_location=topic_page")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func dropAllCharges(_ sender: UIButton) {
+        UIApplication.shared.open (URL(string:"https://www.change.org/p/drop-all-charges-against-incarcerated-trafficking-survivor-chrystul-kizer?source_location=topic_page")! as URL, options: [:], completionHandler: nil)
+    }
     
     @IBAction func womenDocumentaries(_ sender: UIButton) {
         UIApplication.shared.open (URL(string: "https://www.refinery29.com/en-us/2020/03/9494158/best-documentaries-by-about-women")! as URL, options: [:], completionHandler: nil)

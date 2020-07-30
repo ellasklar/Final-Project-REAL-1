@@ -293,21 +293,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helpful Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4D-m2-ZWB">
-                                <rect key="frame" x="74" y="113" width="267" height="51"/>
+                                <rect key="frame" x="73" y="94" width="267" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtZ-oe-uBX">
-                                <rect key="frame" x="170" y="321" width="74" height="23"/>
+                                <rect key="frame" x="170" y="331" width="74" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQE-Ms-hhh">
-                                <rect key="frame" x="74" y="527" width="267" height="51"/>
+                                <rect key="frame" x="74" y="539" width="267" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
@@ -320,6 +320,96 @@
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="Egn-IQ-vTt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X0-oC-uY4">
+                                <rect key="frame" x="141" y="161" width="131" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://glad.org"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="Dvp-g0-XvM"/>
+                                    <action selector="gladorg:" destination="n0b-qB-hUB" eventType="touchUpInside" id="KLO-Xd-ho4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3i-zC-9Hp">
+                                <rect key="frame" x="27" y="213" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://pflag.org/glossary"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="OIK-z5-ExW"/>
+                                    <action selector="ncdgov:" destination="n0b-qB-hUB" eventType="touchUpInside" id="dpL-TZ-XUT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-f7-WUX">
+                                <rect key="frame" x="25" y="264" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://lgbtchange.carrd.co"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="fYv-Wg-qBV"/>
+                                    <action selector="bustle:" destination="n0b-qB-hUB" eventType="touchUpInside" id="lSw-19-00Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT7-XR-0Sv">
+                                <rect key="frame" x="35" y="471" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Justice For Bree Black"/>
+                                <connections>
+                                    <action selector="BreeBlack:" destination="n0b-qB-hUB" eventType="touchUpInside" id="eEL-9s-hgA"/>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="Z5L-CA-rCK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctV-eD-cW1">
+                                <rect key="frame" x="35" y="426" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Allow Gay Men To Donate Blood!"/>
+                                <connections>
+                                    <action selector="AllowGayMen:" destination="n0b-qB-hUB" eventType="touchUpInside" id="M0Z-3W-TyJ"/>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="drp-pl-Zj1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRr-Wl-DsT">
+                                <rect key="frame" x="35" y="381" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Every Child Deserves A Family Act"/>
+                                <connections>
+                                    <action selector="EveryChild:" destination="n0b-qB-hUB" eventType="touchUpInside" id="vgm-dJ-3Xl"/>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="yEi-Yv-C6c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWO-lf-FLn">
+                                <rect key="frame" x="35" y="598" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Books About LGBTQ+"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="qzT-oX-dvq"/>
+                                    <action selector="books:" destination="n0b-qB-hUB" eventType="touchUpInside" id="XQS-zi-ckI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evl-hN-vkH">
+                                <rect key="frame" x="35" y="657" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Shows &amp; Movies About LGBTQ+"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="7hT-De-eov"/>
+                                    <action selector="showsmovies:" destination="n0b-qB-hUB" eventType="touchUpInside" id="zmi-bL-JxG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQq-WZ-m14">
+                                <rect key="frame" x="35" y="712" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Documentaries About LGBTQ+"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="P8R-oe-ZU8"/>
+                                    <action selector="docum:" destination="n0b-qB-hUB" eventType="touchUpInside" id="27W-Ug-hX9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -341,28 +431,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disabilities" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZN-0G-7mS">
-                                <rect key="frame" x="156" y="41" width="108" height="28"/>
+                                <rect key="frame" x="156" y="31" width="108" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helpful Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sna-wd-MA6">
-                                <rect key="frame" x="74" y="111" width="267" height="51"/>
+                                <rect key="frame" x="74" y="95" width="267" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXX-Rf-sr9">
-                                <rect key="frame" x="170" y="305" width="74" height="23"/>
+                                <rect key="frame" x="170" y="316" width="74" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtF-Rn-WHw">
-                                <rect key="frame" x="77" y="516" width="267" height="51"/>
+                                <rect key="frame" x="77" y="533" width="267" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
@@ -375,6 +465,105 @@
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="0kK-9i-Es7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdY-M2-kLi">
+                                <rect key="frame" x="101" y="154" width="214" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://shemightbe.co.uk"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="Xht-Xn-MkV"/>
+                                    <action selector="gladorg:" destination="n0b-qB-hUB" eventType="touchUpInside" id="CBJ-fF-2nK"/>
+                                    <action selector="shemightbe:" destination="LwI-VW-9CS" eventType="touchUpInside" id="Xib-EZ-SQ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57Q-R8-WRa">
+                                <rect key="frame" x="-24" y="359" width="462" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Life-Saving NurOwn for ALS Patients"/>
+                                <connections>
+                                    <action selector="EveryChild:" destination="n0b-qB-hUB" eventType="touchUpInside" id="u5F-f3-Fh9"/>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="Y8Z-Ft-tf1"/>
+                                    <action selector="lifeSaving:" destination="LwI-VW-9CS" eventType="touchUpInside" id="vsE-5s-cJC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsp-Rp-b8A">
+                                <rect key="frame" x="35" y="416" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Special Books by Special Kids"/>
+                                <connections>
+                                    <action selector="EveryChild:" destination="n0b-qB-hUB" eventType="touchUpInside" id="hV3-72-8U3"/>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="3pE-vK-HCO"/>
+                                    <action selector="specialBooks:" destination="LwI-VW-9CS" eventType="touchUpInside" id="iMB-JR-gKL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7o-ac-M3T">
+                                <rect key="frame" x="35" y="471" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Captions for People with Hearing Loss"/>
+                                <connections>
+                                    <action selector="EveryChild:" destination="n0b-qB-hUB" eventType="touchUpInside" id="D0w-Hd-t0y"/>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="tqS-1Y-NcD"/>
+                                    <action selector="captions:" destination="LwI-VW-9CS" eventType="touchUpInside" id="n1t-Ln-76I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOC-P9-23k">
+                                <rect key="frame" x="35" y="647" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Shows &amp; Movies About Disabilities"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="Bad-N0-Rp9"/>
+                                    <action selector="showsMovies:" destination="LwI-VW-9CS" eventType="touchUpInside" id="sJb-MG-tfv"/>
+                                    <action selector="showsmovies:" destination="n0b-qB-hUB" eventType="touchUpInside" id="YUt-UV-SGp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN4-mM-sKC">
+                                <rect key="frame" x="35" y="704" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Documentaries About Disabilities"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="ORC-Sc-BGw"/>
+                                    <action selector="docum:" destination="n0b-qB-hUB" eventType="touchUpInside" id="RL8-ZU-iap"/>
+                                    <action selector="docum:" destination="LwI-VW-9CS" eventType="touchUpInside" id="edM-6X-nQL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6i-BQ-Hob">
+                                <rect key="frame" x="35" y="592" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Books About Disabilities"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="naV-Ji-C8u"/>
+                                    <action selector="books:" destination="n0b-qB-hUB" eventType="touchUpInside" id="Cc1-oj-uOB"/>
+                                    <action selector="books:" destination="LwI-VW-9CS" eventType="touchUpInside" id="WSx-be-CZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bB-Of-BwQ">
+                                <rect key="frame" x="35" y="197" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://ncd.gov/resources"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="M8P-zS-631"/>
+                                    <action selector="ncdGov:" destination="LwI-VW-9CS" eventType="touchUpInside" id="2Qs-Vo-G25"/>
+                                    <action selector="ncdgov:" destination="n0b-qB-hUB" eventType="touchUpInside" id="N4o-It-tsx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRo-Ka-HGY">
+                                <rect key="frame" x="35" y="242" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://bustle.com"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="VgM-4o-JAQ"/>
+                                    <action selector="bustle:" destination="LwI-VW-9CS" eventType="touchUpInside" id="4LM-mV-4os"/>
+                                    <action selector="bustle:" destination="n0b-qB-hUB" eventType="touchUpInside" id="SaC-pq-Z0i"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -468,88 +657,132 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRE-15-tsj">
-                                <rect key="frame" x="146" y="32" width="122" height="21"/>
+                                <rect key="frame" x="127" y="20" width="160" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helpful Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfq-Yi-afb">
-                                <rect key="frame" x="37" y="113" width="151" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="petitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlJ-IV-yW7">
-                                <rect key="frame" x="37" y="308" width="67" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="media" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am0-9n-coH">
-                                <rect key="frame" x="37" y="494" width="47" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzo-6a-Pr0">
-                                <rect key="frame" x="37" y="156" width="151" height="30"/>
+                                <rect key="frame" x="109" y="156" width="196" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="NASA-climate change"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="NASA: Climate Change"/>
                                 <connections>
                                     <action selector="NASA:" destination="IrS-QK-pMx" eventType="touchUpInside" id="l6w-1j-zfu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVP-QM-YzJ">
-                                <rect key="frame" x="20" y="186" width="212" height="30"/>
+                                <rect key="frame" x="69" y="209" width="272" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="united nations- climate change"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="United Nations: Climate Change"/>
                                 <connections>
                                     <action selector="unClimatechange:" destination="IrS-QK-pMx" eventType="touchUpInside" id="lAp-PE-ZS1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ti-Kz-CnO">
-                                <rect key="frame" x="3" y="211" width="411" height="30"/>
+                                <rect key="frame" x="33" y="260" width="351" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="world health organization- climate change effects on health "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="WHO: Climate Change Effects On Health "/>
                                 <connections>
                                     <action selector="whoClimatechange:" destination="IrS-QK-pMx" eventType="touchUpInside" id="rym-dM-kCR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkO-VB-fXh">
-                                <rect key="frame" x="20" y="350" width="80" height="30"/>
+                                <rect key="frame" x="33" y="383" width="351" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Change.org"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Ban Trophy Hunting And Stop Poaching"/>
                                 <connections>
                                     <action selector="changeClimate:" destination="IrS-QK-pMx" eventType="touchUpInside" id="T8S-Sc-Nl5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fk0-ZV-gTM">
-                                <rect key="frame" x="20" y="523" width="210" height="30"/>
+                                <rect key="frame" x="37" y="612" width="326" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="climate change documentaires"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Documentaries About Climate Change"/>
                                 <connections>
                                     <action selector="climatechangeDocs:" destination="IrS-QK-pMx" eventType="touchUpInside" id="TlM-sO-rVP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04t-s7-Trs">
-                                <rect key="frame" x="20" y="550" width="154" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="climate change books "/>
-                                <connections>
-                                    <action selector="climateChangeBooks:" destination="IrS-QK-pMx" eventType="touchUpInside" id="9bn-q7-i9W"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPp-Sb-PLu">
-                                <rect key="frame" x="20" y="749" width="116" height="59"/>
+                                <rect key="frame" x="33" y="775" width="102" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="T0z-rq-WXa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helpful Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8q-zH-U2k">
+                                <rect key="frame" x="74" y="97" width="267" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB6-0v-RSK">
+                                <rect key="frame" x="149" y="334" width="117" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlP-oH-fIu">
+                                <rect key="frame" x="72" y="553" width="267" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWY-8N-Qps">
+                                <rect key="frame" x="42" y="431" width="331" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Stop Filling the World with Plastic Bags">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dropAllCharges:" destination="IrS-QK-pMx" eventType="touchUpInside" id="GgW-Wq-LmK"/>
+                                    <action selector="dropAllCharges:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="eK5-Ce-bKq"/>
+                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="BjT-9K-Vb3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hi2-an-70S">
+                                <rect key="frame" x="98" y="493" width="219" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Go #AllinforClimateAction">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dropAllCharges:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="QrH-1k-NTZ"/>
+                                    <action selector="goAll:" destination="IrS-QK-pMx" eventType="touchUpInside" id="cgm-DW-KXA"/>
+                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="5il-00-7hN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxt-Jm-CQR">
+                                <rect key="frame" x="34" y="655" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Shows &amp; Movies About Climate Change"/>
+                                <connections>
+                                    <action selector="SeanReed:" destination="jd2-1J-HQO" eventType="touchUpInside" id="sag-Uo-UaO"/>
+                                    <action selector="showsMovies:" destination="IrS-QK-pMx" eventType="touchUpInside" id="BlD-g7-wsF"/>
+                                    <action selector="showsMovies:" destination="LwI-VW-9CS" eventType="touchUpInside" id="O9k-Ch-kT1"/>
+                                    <action selector="showsmovies:" destination="n0b-qB-hUB" eventType="touchUpInside" id="rgs-Q0-PYH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04t-s7-Trs">
+                                <rect key="frame" x="76" y="700" width="249" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Books About Climate Change"/>
+                                <connections>
+                                    <action selector="climateChangeBooks:" destination="IrS-QK-pMx" eventType="touchUpInside" id="9bn-q7-i9W"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -559,9 +792,6 @@
                     <navigationItem key="navigationItem" id="ZBy-xq-G3V"/>
                     <connections>
                         <outlet property="climateChange" destination="FRE-15-tsj" id="JGO-44-J1N"/>
-                        <outlet property="climatechangeResource" destination="Nfq-Yi-afb" id="lbd-0Z-Iy9"/>
-                        <outlet property="climatechangemedia" destination="Am0-9n-coH" id="uOE-yu-cYV"/>
-                        <outlet property="climatechangepetitions" destination="JlJ-IV-yW7" id="yEV-JK-ZRA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KMT-Kt-cBq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -583,98 +813,74 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helpful Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyX-lI-Lvo">
-                                <rect key="frame" x="20" y="118" width="140" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfB-eC-Tqg">
-                                <rect key="frame" x="32" y="165" width="267" height="27"/>
+                                <rect key="frame" x="77" y="152" width="255" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="American Civil Liberties Union- Womens Rights">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="American Civil Liberties Union">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="mD1-1e-dms"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b5-Tb-av6">
-                                <rect key="frame" x="20" y="191" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="United Nations- Gender Equality"/>
-                                <connections>
-                                    <action selector="unitedNations:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="3mk-LS-Hl6"/>
-                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="lK3-ER-qG3"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ke5-pp-BBY">
-                                <rect key="frame" x="6" y="221" width="319" height="30"/>
+                                <rect key="frame" x="47" y="238" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="CDC- Sexual Violence prevention and support "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Sexual Violence prevention and support "/>
                                 <connections>
                                     <action selector="sexualViolence:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="0Tq-tP-tXv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knr-zr-Y7q">
-                                <rect key="frame" x="20" y="251" width="283" height="30"/>
+                                <rect key="frame" x="47" y="290" width="343" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Global History of Women's Rights- Video "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Global History of Women's Rights Video "/>
                                 <connections>
                                     <action selector="globalHistory:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="mPr-Hf-fOd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGa-XU-cGW">
-                                <rect key="frame" x="20" y="357" width="71" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4E-NC-Bld">
-                                <rect key="frame" x="32" y="386" width="80" height="30"/>
+                                <rect key="frame" x="35" y="412" width="345" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Change.org"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Abuse and Harrassment on Social Media"/>
                                 <connections>
                                     <action selector="changeorg:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="dvy-h5-dgM"/>
                                     <action selector="globalHistory:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="inV-4D-O10"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5e-UT-tOv">
-                                <rect key="frame" x="32" y="492" width="52" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aej-KL-b26">
-                                <rect key="frame" x="20" y="521" width="164" height="30"/>
+                                <rect key="frame" x="44" y="706" width="328" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Women Documentaries "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Documentaries About Women's Rights"/>
                                 <connections>
                                     <action selector="womenDocumentaries:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="7Vk-lA-g6o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnI-NP-1fs">
-                                <rect key="frame" x="20" y="549" width="125" height="30"/>
+                                <rect key="frame" x="67" y="663" width="284" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Women TV Shows"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="TV Shows About Women's Rights"/>
                                 <connections>
                                     <action selector="womenTV:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="rSX-Ce-nQ1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5z-0R-cqB">
-                                <rect key="frame" x="20" y="576" width="98" height="30"/>
+                                <rect key="frame" x="77" y="612" width="264" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Women Books"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Books About Women's Rights"/>
                                 <connections>
                                     <action selector="womenBooks:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="ZF4-bt-Vec"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ic4-DV-DX7">
-                                <rect key="frame" x="20" y="749" width="116" height="59"/>
+                                <rect key="frame" x="20" y="764" width="116" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Back"/>
@@ -682,6 +888,61 @@
                                     <segue destination="b3v-gr-cFQ" kind="show" id="GaG-1G-gwr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helpful Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8A-x8-P19">
+                                <rect key="frame" x="74" y="93" width="267" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjT-hE-NKT">
+                                <rect key="frame" x="74" y="553" width="267" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b5-Tb-av6">
+                                <rect key="frame" x="71" y="195" width="267" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="United Nations:Gender Equality">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="unitedNations:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="3mk-LS-Hl6"/>
+                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="lK3-ER-qG3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJn-Cc-gIg">
+                                <rect key="frame" x="15" y="455" width="385" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Justice for 12 Year Old Girl Raped By Soldiers"/>
+                                <connections>
+                                    <action selector="WillieSimmons:" destination="jd2-1J-HQO" eventType="touchUpInside" id="AKt-fu-xA7"/>
+                                    <action selector="yroldgirl:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="vso-UC-bmR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PW8-wj-wIg">
+                                <rect key="frame" x="37" y="498" width="341" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Drop All Charges Against Chrystul Kizer ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dropAllCharges:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="t5U-OO-K4q"/>
+                                    <action selector="womensrightsissues:" destination="Cpy-4j-d5X" eventType="touchUpInside" id="0Wu-AN-0lS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqb-60-5gg">
+                                <rect key="frame" x="171" y="361" width="74" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -689,9 +950,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="fs6-UN-e4B"/>
                     <connections>
-                        <outlet property="womenMedia" destination="o5e-UT-tOv" id="lmv-XD-nge"/>
-                        <outlet property="womenPetition" destination="bGa-XU-cGW" id="Urz-WY-VEn"/>
-                        <outlet property="womenResource" destination="MyX-lI-Lvo" id="AM1-9k-uEZ"/>
                         <outlet property="womenRight" destination="6fl-NI-3cg" id="MRh-TG-SRo"/>
                     </connections>
                 </viewController>
@@ -769,10 +1027,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental Health :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZg-OR-HOD">
-                                <rect key="frame" x="146" y="39" width="122" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZg-OR-HOD">
+                                <rect key="frame" x="17" y="53" width="380" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text">We understand that keeping up with social justice issues can be overwhelming which is why our team has provided some resources to aid in your well-being and self-care</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -783,6 +1042,56 @@
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="fdX-gP-jnZ" kind="show" id="7aL-Ys-2q1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqG-qb-IRv">
+                                <rect key="frame" x="127" y="244" width="160" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Self Care Products"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="adZ-Ki-mJY"/>
+                                    <action selector="selfCareProducts:" destination="s6L-Lm-YtZ" eventType="touchUpInside" id="Ktf-mP-BiX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jB-ZV-L9v">
+                                <rect key="frame" x="137" y="318" width="135" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Self Care Books"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="DI6-xY-YYK"/>
+                                    <action selector="selfCareBooks:" destination="s6L-Lm-YtZ" eventType="touchUpInside" id="2rN-xv-pZB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vk0-CJ-s5S">
+                                <rect key="frame" x="137" y="391" width="140" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Meditation Apps"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="0EC-lC-Org"/>
+                                    <action selector="meditationApps:" destination="s6L-Lm-YtZ" eventType="touchUpInside" id="aaN-4P-ZMS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75h-ct-z3a">
+                                <rect key="frame" x="108" y="462" width="199" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://tinybuddha.com"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="O7J-Ks-yZ3"/>
+                                    <action selector="tinyBuddha:" destination="s6L-Lm-YtZ" eventType="touchUpInside" id="Zxh-XB-EFV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCi-mq-1GQ">
+                                <rect key="frame" x="98" y="541" width="219" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="https://www.success.com"/>
+                                <connections>
+                                    <action selector="abcnews:" destination="jd2-1J-HQO" eventType="touchUpInside" id="qeo-Ki-xxB"/>
+                                    <action selector="success:" destination="s6L-Lm-YtZ" eventType="touchUpInside" id="yGl-Lr-qv0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -822,6 +1131,13 @@
                                     <segue destination="fdX-gP-jnZ" kind="show" id="fvp-tM-9Wg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copy Mission Statement from Slides and post here" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ms-FU-qRA">
+                                <rect key="frame" x="82" y="134" width="257" height="621"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="5iz-uK-Sut"/>
@@ -830,7 +1146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dmr-pH-ABt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1909" y="863"/>
+            <point key="canvasLocation" x="1908.6956521739132" y="862.5"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
