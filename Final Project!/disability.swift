@@ -54,5 +54,4 @@ class disability: UIViewController {
     @IBAction func docum(_ sender: UIButton) {
         UIApplication.shared.open (URL(string:"https://disabilityvisibilityproject.com/2020/05/04/7-documentaries-to-watch-after-crip-camp/")! as URL, options: [:], completionHandler: nil)
     }
-    
-}
+        }
