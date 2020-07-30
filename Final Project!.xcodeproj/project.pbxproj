@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C2436024D2DB3900582DF0 /* missionStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C2435F24D2DB3800582DF0 /* missionStatement.swift */; };
 		187249C624D1F476005A64B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249C524D1F476005A64B3 /* AppDelegate.swift */; };
 		187249C824D1F476005A64B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249C724D1F476005A64B3 /* SceneDelegate.swift */; };
 		187249CA24D1F476005A64B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187249C924D1F476005A64B3 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C2435F24D2DB3800582DF0 /* missionStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missionStatement.swift; sourceTree = "<group>"; };
 		187249C224D1F476005A64B3 /* Final Project!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187249C524D1F476005A64B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187249C724D1F476005A64B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				18724A0424D1F77B005A64B3 /* disability.swift */,
 				18724A0624D1F792005A64B3 /* womensRights.swift */,
 				18724A0824D1F7B6005A64B3 /* cilmateChange.swift */,
+				07C2435F24D2DB3800582DF0 /* missionStatement.swift */,
 			);
 			path = "Final Project!";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				18724A0524D1F77B005A64B3 /* disability.swift in Sources */,
 				187249F924D1F5A8005A64B3 /* options.swift in Sources */,
+				07C2436024D2DB3900582DF0 /* missionStatement.swift in Sources */,
 				187249CA24D1F476005A64B3 /* ViewController.swift in Sources */,
 				187249C624D1F476005A64B3 /* AppDelegate.swift in Sources */,
 				187249FD24D1F60B005A64B3 /* resources.swift in Sources */,
