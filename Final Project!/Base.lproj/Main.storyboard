@@ -71,7 +71,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="fdX-gP-jnZ" kind="show" id="o2s-Z6-jUd"/>
                                 </connections>
@@ -212,7 +214,9 @@
                                 <rect key="frame" x="20" y="773" width="108" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="KfO-dd-gHJ"/>
                                 </connections>
@@ -377,7 +381,9 @@
                                 <rect key="frame" x="20" y="777" width="102" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="Egn-IQ-vTt"/>
                                 </connections>
@@ -516,7 +522,9 @@
                                 <rect key="frame" x="20" y="764" width="116" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="0kK-9i-Es7"/>
                                 </connections>
@@ -653,7 +661,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="BLM">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="40" name="Papyrus"/>
                                             </attributes>
                                         </fragment>
@@ -665,11 +673,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AFP-Fi-7OU">
-                                <rect key="frame" x="238" y="119" width="141" height="74"/>
+                                <rect key="frame" x="228" y="119" width="161" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="LGBTQ">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="LGBTQ">
+                                        <fragment content="LGBTQ+">
                                             <attributes>
                                                 <font key="NSFont" size="40" name="Papyrus"/>
                                             </attributes>
@@ -688,7 +696,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Disability Rights">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="27" name="Papyrus"/>
                                             </attributes>
                                         </fragment>
@@ -706,7 +714,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Climate Change">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="30" name="Papyrus"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -722,7 +730,9 @@
                                 <rect key="frame" x="20" y="749" width="116" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="fdX-gP-jnZ" kind="show" id="GnD-KR-M9c"/>
                                 </connections>
@@ -817,7 +827,9 @@
                                 <rect key="frame" x="33" y="775" width="102" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="T0z-rq-WXa"/>
                                 </connections>
@@ -991,7 +1003,9 @@
                                 <rect key="frame" x="20" y="764" width="116" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="b3v-gr-cFQ" kind="show" id="GaG-1G-gwr"/>
                                 </connections>
@@ -1102,7 +1116,9 @@
                                 <rect key="frame" x="20" y="749" width="116" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="UJa-m6-rEM"/>
                                 </connections>
@@ -1114,7 +1130,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Our Mission Statement">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="27" name="Papyrus"/>
                                             </attributes>
                                         </fragment>
@@ -1135,7 +1151,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Daily Updates">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="27" name="Papyrus"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1154,7 +1170,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Resources ">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="27" name="Papyrus"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1189,7 +1205,9 @@
                                 <rect key="frame" x="20" y="749" width="116" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="fdX-gP-jnZ" kind="show" id="7aL-Ys-2q1"/>
                                 </connections>
@@ -1219,7 +1237,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Meditation Apps">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="23" name="Papyrus"/>
                                             </attributes>
                                         </fragment>
@@ -1254,7 +1272,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="https://www.success.com">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="23" name="Papyrus"/>
                                             </attributes>
                                         </fragment>
@@ -1369,7 +1387,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="fdX-gP-jnZ" kind="show" id="fvp-tM-9Wg"/>
                                 </connections>
@@ -1387,8 +1407,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xvo-lE-cTd"/>
-        <segue reference="WCb-1U-3kq"/>
+        <segue reference="yxY-zy-QRG"/>
+        <segue reference="GnD-KR-M9c"/>
+        <segue reference="KfO-dd-gHJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="119-1195148_bare-tree-clip-art-free-bare-tree-trunk" width="1983" height="2004"/>
