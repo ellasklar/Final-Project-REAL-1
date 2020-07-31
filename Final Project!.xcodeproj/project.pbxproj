@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		07C2435F24D2DB3800582DF0 /* missionStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missionStatement.swift; sourceTree = "<group>"; };
-		187249C224D1F476005A64B3 /* Final Project!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187249C224D1F476005A64B3 /* The Hive .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Hive .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187249C524D1F476005A64B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187249C724D1F476005A64B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		187249C924D1F476005A64B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		187249C324D1F476005A64B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				187249C224D1F476005A64B3 /* Final Project!.app */,
+				187249C224D1F476005A64B3 /* The Hive .app */,
 				187249DB24D1F478005A64B3 /* Final Project!Tests.xctest */,
 				187249E624D1F478005A64B3 /* Final Project!UITests.xctest */,
 			);
@@ -178,7 +178,7 @@
 			);
 			name = "Final Project!";
 			productName = "Final Project!";
-			productReference = 187249C224D1F476005A64B3 /* Final Project!.app */;
+			productReference = 187249C224D1F476005A64B3 /* The Hive .app */;
 			productType = "com.apple.product-type.application";
 		};
 		187249DA24D1F478005A64B3 /* Final Project!Tests */ = {
@@ -485,7 +485,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Final-Project-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Hive ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -502,7 +502,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Final-Project-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Hive ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
